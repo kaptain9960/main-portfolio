@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Frontend Developer Portfolio</title>
+    <meta name="description" content="Frontend Developer specializing in HTML, CSS, JavaScript, Bootstrap & Firebase. Building clean, responsive web experiences.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-bracket">&lt;/Sami</span><span class="brand-slash"></span><span class="brand-bracket">&gt;</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#journey">Journey</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#github">GitHub</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary-custom ms-lg-3">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7">
+                    <div class="hero-badge fade-in-up">
+                        <span class="status-dot"></span>
+                        Available for opportunities
+                    </div>
+                    <h1 class="hero-title fade-in-up delay-1" id="element">
+                        Hi, I'm <span class="highlight">Sami Shaikh</span>
+                    </h1>
+                    <h2 class="hero-subtitle fade-in-up delay-2">
+                        Frontend Developer <span class="divider">|</span> JavaScript Enthusiast <span class="divider">|</span> Aspiring Full-Stack Developer
+                    </h2>
+                    <p class="hero-description fade-in-up delay-3">
+                        Building clean, responsive, and interactive web experiences. 
+                        Passionate about creating pixel-perfect interfaces with modern technologies.
+                    </p>
+                    <div class="hero-stats fade-in-up delay-3">
+                        <div class="stat-item">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label text-white">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label text-white">Projects Done</span>
+                        </div>
+                    </div>
+                    <div class="hero-social fade-in-up delay-5 mb-4">
+                        <a target="_blank" href="https://github.com/samidev786" class="social-link"><i class="bi bi-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/muhammad-sami-shaikh-889660367/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61584690696419" class="social-link"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    <div class="hero-cta fade-in-up delay-4">
+                        <a href="#projects" class="btn btn-primary-custom btn-lg">
+                            <i class="bi bi-folder2-open me-2"></i>View Projects
+                        </a>
+                        <a href="./assets/cv.jpg" download="My_CV" class="btn btn-outline-custom btn-lg">
+                            <i class="bi bi-download me-2"></i>Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="hero-image-wrapper fade-in-up delay-2">
+                        <div class="hero-image-glow"></div>
+                        <div class="hero-image">
+                            <div class="code-window">
+                                <div class="window-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                    <span class="file-name">developer.js</span>
+                                </div>
+                                <div class="window-content">
+                                    <code>
+                                        <span class="keyword">const</span> <span class="variable">developer</span> = {<br>
+                                        &nbsp;&nbsp;<span class="property">name</span>: <span class="string">"John Doe"</span>,<br>
+                                        &nbsp;&nbsp;<span class="property">role</span>: <span class="string">"Frontend Dev"</span>,<br>
+                                        &nbsp;&nbsp;<span class="property">skills</span>: [<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"HTML"</span>, <span class="string">"CSS"</span>,<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"JavaScript"</span>,<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Bootstrap"</span>,<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Firebase"</span><br>
+                                        &nbsp;&nbsp;],<br>
+                                        &nbsp;&nbsp;<span class="property">passion</span>: <span class="string">"∞"</span><br>
+                                        };
+                                    </code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+
+       
+    </section>
+
+    <!-- ========== TECH MARQUEE ========== -->
+    <div class="tech-marquee mt-5">
+        <div class="marquee-content">
+            <span class="marquee-item"><i class="bi bi-code-slash"></i> HTML5</span>
+            <span class="marquee-item"><i class="bi bi-palette"></i> CSS3</span>
+            <span class="marquee-item"><i class="bi bi-filetype-js"></i> JavaScript</span>
+            <span class="marquee-item"><i class="bi bi-bootstrap"></i> Bootstrap</span>
+            <span class="marquee-item"><i class="bi bi-fire"></i> Firebase</span>
+            <span class="marquee-item"><i class="bi bi-git"></i> Git</span>
+            <span class="marquee-item"><i class="bi bi-github"></i> GitHub</span>
+            <span class="marquee-item"><i class="bi bi-code-slash"></i> HTML5</span>
+            <span class="marquee-item"><i class="bi bi-palette"></i> CSS3</span>
+            <span class="marquee-item"><i class="bi bi-filetype-js"></i> JavaScript</span>
+            <span class="marquee-item"><i class="bi bi-bootstrap"></i> Bootstrap</span>
+            <span class="marquee-item"><i class="bi bi-fire"></i> Firebase</span>
+            <span class="marquee-item"><i class="bi bi-git"></i> Git</span>
+            <span class="marquee-item"><i class="bi bi-github"></i> GitHub</span>
+        </div>
+    </div>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">About <span style="color: #ff7a18;">Me</span></h2>
+            </div>
+
+            <div class="row align-items-center g-5" data-aos="fade-right">
+                <div class="col-lg-5 aboutImage">
+                    <div class="about-image-wrapper">
+                        <div class="about-image">
+                            <div class="image-frame">
+                                <div class="profile-placeholder">
+                                   <img style="border-radius: 0.7rem;height: auto;width: 100%;" src="./assets/sami profile photo.jpeg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="experience-badge">
+                                <span class="exp-number">2+</span>
+                                <span class="exp-text">Years<br>Experience</span>
+                            </div> -->
+                        </div>
+                        <div class="about-pattern"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3 class="about-heading" style="color: #ff7a18;">Frontend Developer & UI Enthusiast</h3>
+                        <p class="about-text fs-5">
+                           I’m Muhammad Sami Shaikh, a frontend developer focused on building clean, responsive, and interactive web interfaces using HTML, CSS, JavaScript, Bootstrap, and Firebase. Currently learning React, Next.js, Node, and Express to become a full-stack developer. I’m passionate about UI quality, problem-solving, and continuous learning, and I’m looking for opportunities to grow and contribute to impactful projects.
+                        </p>
+                        <div class="about-cards">
+                            <div class="about-card">
+                                <div class="card-icon"><i class="bi bi-lightbulb"></i></div>
+                                <h4>Problem Solver</h4>
+                                <p>I love tackling complex challenges and finding elegant solutions.</p>
+                            </div>
+                            <div class="about-card">
+                                <div class="card-icon"><i class="bi bi-heart"></i></div>
+                                <h4>Clean Code</h4>
+                                <p>Writing maintainable, readable, and efficient code is my priority.</p>
+                            </div>
+                            <div class="about-card">
+                                <div class="card-icon"><i class="bi bi-rocket-takeoff"></i></div>
+                                <h4>Always Learning</h4>
+                                <p>Continuously expanding my skills and staying updated with trends.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Passionate about clean UI/UX design</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Experience with real-world projects using JS & Firebase</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Currently learning React, Next.js, Node.js, Express.js</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Open to freelance opportunities & internships</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Divider -->
+       
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Skills & <span style="color: #ff7a18;">Technologies</span></h2>
+                <p class="section-subtitle">Technologies I work with and tools I use to bring ideas to life</p>
+            </div>
+
+            <!-- Frontend Skills -->
+            <div class="skill-category" data-aos="fade-right">
+                <h3 class="category-title">
+                    <i class="bi bi-code-square"></i>
+                    Frontend Development
+                </h3>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon html">
+                                <i class="bi bi-filetype-html"></i>
+                            </div>
+                            <h4 class="skill-name">HTML5</h4>
+                            <p class="skill-desc">Semantic markup & accessibility</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon css">
+                                <i class="bi bi-filetype-css"></i>
+                            </div>
+                            <h4 class="skill-name">CSS3</h4>
+                            <p class="skill-desc">Flexbox, Grid, Animations</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon js">
+                                <i class="bi bi-filetype-js"></i>
+                            </div>
+                            <h4 class="skill-name">JavaScript</h4>
+                            <p class="skill-desc">ES6+, DOM, Async/Await</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon bootstrap">
+                                <i class="bi bi-bootstrap-fill"></i>
+                            </div>
+                            <h4 class="skill-name">Bootstrap</h4>
+                            <p class="skill-desc">Responsive layouts & components</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend / Database -->
+            <div class="skill-category" data-aos="fade-left">
+                <h3 class="category-title">
+                    <i class="bi bi-database"></i>
+                    Backend & Database
+                </h3>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon firebase">
+                                <i class="bi bi-fire"></i>
+                            </div>
+                            <h4 class="skill-name">Firebase</h4>
+                            <p class="skill-desc">Auth, Firestore, Realtime DB</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="skill-category"  data-aos="flip-up">
+                <h3 class="category-title">
+                    <i class="bi bi-tools"></i>
+                    Tools & Platforms
+                </h3>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon git">
+                                <i class="bi bi-git"></i>
+                            </div>
+                            <h4 class="skill-name">Git</h4>
+                            <p class="skill-desc">Version control & branching</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon github">
+                                <i class="bi bi-github"></i>
+                            </div>
+                            <h4 class="skill-name">GitHub</h4>
+                            <p class="skill-desc">Repos, PRs, Collaboration</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon vscode">
+                                <i class="bi bi-braces"></i>
+                            </div>
+                            <h4 class="skill-name">VS Code</h4>
+                            <p class="skill-desc">Extensions & productivity</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card">
+                            <div class="skill-icon devtools">
+                                <i class="bi bi-bug"></i>
+                            </div>
+                            <h4 class="skill-name">DevTools</h4>
+                            <p class="skill-desc">Debugging & performance</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--level: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Currently Learning -->
+            <div class="skill-category learning"  data-aos="flip-down">
+                <div class="learning-header">
+                    <h3 class="category-title">
+                        <i class="bi bi-rocket-takeoff"></i>
+                        Currently Learning / Exploring
+                    </h3>
+                    <span class="learning-badge"><i class="bi bi-lightning-charge"></i> In Progress</span>
+                </div>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card future-skill">
+                            <div class="skill-icon react">
+                                <i class="bi bi-arrow-repeat"></i>
+                            </div>
+                            <h4 class="skill-name">React.js</h4>
+                            <p class="skill-desc">Components, Hooks, State</p>
+                            <span class="progress-tag">Learning</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card future-skill">
+                            <div class="skill-icon nextjs">
+                                <i class="bi bi-arrow-right-circle"></i>
+                            </div>
+                            <h4 class="skill-name">Next.js</h4>
+                            <p class="skill-desc">SSR, SSG, API Routes</p>
+                            <span class="progress-tag">Exploring</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card future-skill">
+                            <div class="skill-icon node">
+                                <i class="bi bi-hdd-stack"></i>
+                            </div>
+                            <h4 class="skill-name">Node.js</h4>
+                            <p class="skill-desc">Server-side JavaScript</p>
+                            <span class="progress-tag">Learning</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card future-skill">
+                            <div class="skill-icon express">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <h4 class="skill-name">Express.js</h4>
+                            <p class="skill-desc">REST APIs, Middleware</p>
+                            <span class="progress-tag">Exploring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Featured<span style="color: #ff7a18;"> Projects</span></h2>
+                <p class="section-subtitle">A selection of my recent work and personal projects</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-cart3"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="bi bi-github"></i></a>
+                                    <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                            <span class="featured-badge"><i class="bi bi-star-fill"></i> Featured</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Store</h3>
+                            <p class="project-desc">A mini online store with product listings, shopping cart functionality, and order management system.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-sm btn-primary-custom">
+                                    <i class="bi bi-eye me-1"></i>Live Demo
+                                </a>
+                                <a href="#" class="btn btn-sm btn-outline-custom">
+                                    <i class="bi bi-github me-1"></i>GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-shield-lock"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/samidev786/mini-firebase-app" class="project-link"><i class="bi bi-github"></i></a>
+                                    <a href="https://miniapp786.netlify.app" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Authentication System</h3>
+                            <p class="project-desc">Complete user authentication with login, signup, password reset, and profile management using Firebase Auth.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Firebase Auth</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a target="_blank" href="https://miniapp786.netlify.app" class="btn btn-sm btn-primary-custom">
+                                    <i class="bi bi-eye me-1"></i>Live Demo
+                                </a>
+                                <a target="_blank" href="https://github.com/samidev786/mini-firebase-app" class="btn btn-sm btn-outline-custom">
+                                    <i class="bi bi-github me-1"></i>GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+                <!-- Project 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-cloud-sun"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/samidev786/weather-app" class="project-link"><i class="bi bi-github"></i></a>
+                                    <a href="https://weathersami.netlify.app" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather App</h3>
+                            <p class="project-desc">Real-time weather application with location-based forecasts and beautiful UI animations.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">API</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a target="_blank" href="https://weathersami.netlify.app" class="btn btn-sm btn-primary-custom">
+                                    <i class="bi bi-eye me-1"></i>Live Demo
+                                </a>
+                                <a target="_blank" href="https://github.com/samidev786/weather-app" class="btn btn-sm btn-outline-custom">
+                                    <i class="bi bi-github me-1"></i>GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-check2-square"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/samidev786/task-manager-app" class="project-link"><i class="bi bi-github"></i></a>
+                                    <a href="https://taskmanager786.netlify.app" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Manager</h3>
+                            <p class="project-desc">A productivity app with task creation, categories, priorities, and local storage persistence.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a target="_blank" href="https://taskmanager786.netlify.app" class="btn btn-sm btn-primary-custom">
+                                    <i class="bi bi-eye me-1"></i>Live Demo
+                                </a>
+                                <a target="_blank" href="https://github.com/samidev786/task-manager-app" class="btn btn-sm btn-outline-custom">
+                                    <i class="bi bi-github me-1"></i>GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a target="_blank" href="https://github.com/samidev786?tab=repositories" class="btn btn-primary-custom btn-lg">
+                    <i class="bi bi-folder2-open me-2"></i>View All Projects
+                </a>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!-- ========== JOURNEY SECTION ========== -->
+    <section id="journey" class="journey-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Experience & <span style="color: #ff7a18;">Learning Journey</span></h2>
+                <p class="section-subtitle">My continuous growth in web development</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="fade-up-right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 class="timeline-title">Frontend Foundations</h3>
+                        <p>Started web development journey with HTML, CSS, and Bootstrap. Built first responsive websites and learned fundamentals.</p>
+                        <div class="timeline-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right" data-aos="fade-up-left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 class="timeline-title">Advanced Frontend</h3>
+                        <p>Deep dive into JavaScript ES6+, learned Firebase for backend services, and started building full projects independently.</p>
+                        <div class="timeline-tags">
+                            <span>ES6+</span>
+                            <span>Firebase</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="timeline-item left" data-aos="fade-up-right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026</span>
+                        <h3 class="timeline-title">Full-Stack Transition</h3>
+                        <p>Currently expanding skills to React, Next.js, Node.js, and Express.js. Building more complex applications with modern frameworks.</p>
+                        <div class="timeline-tags">
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learning Roadmap -->
+            <div class="roadmap-section"  data-aos="zoom-in">
+                <h3 class="roadmap-title">
+                    <i class="bi bi-signpost-split"></i>
+                    My Learning Roadmap
+                </h3>
+                <div class="roadmap">
+                    <div class="roadmap-item current">
+                        <div class="roadmap-icon"><i class="bi bi-check-lg"></i></div>
+                        <span>Current Stack</span>
+                        <small>HTML, CSS, JS, Bootstrap, Firebase</small>
+                    </div>
+                    <div class="roadmap-arrow"><i class="bi bi-arrow-right"></i></div>
+                    <div class="roadmap-item learning">
+                        <div class="roadmap-icon"><i class="bi bi-hourglass-split"></i></div>
+                        <span>React.js</span>
+                        <small>Learning Now</small>
+                    </div>
+                    <div class="roadmap-arrow"><i class="bi bi-arrow-right"></i></div>
+                    <div class="roadmap-item upcoming">
+                        <div class="roadmap-icon"><i class="bi bi-arrow-right-circle"></i></div>
+                        <span>Next.js</span>
+                        <small>Coming Soon</small>
+                    </div>
+                    <div class="roadmap-arrow"><i class="bi bi-arrow-right"></i></div>
+                    <div class="roadmap-item upcoming">
+                        <div class="roadmap-icon"><i class="bi bi-hdd-stack"></i></div>
+                        <span>Node + Express</span>
+                        <small>Future Goal</small>
+                    </div>
+                    <div class="roadmap-arrow"><i class="bi bi-arrow-right"></i></div>
+                    <div class="roadmap-item goal">
+                        <div class="roadmap-icon"><i class="bi bi-trophy"></i></div>
+                        <span>Full-Stack Dev</span>
+                        <small>Ultimate Goal</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!-- ========== GITHUB SECTION ========== -->
+    <section id="github" class="github-section section-padding"  data-aos="zoom-in">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">GitHub & Code</h2>
+                <p class="section-subtitle">My coding activity and featured repositories</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="github-profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <i class="bi bi-github"></i>
+                            </div>
+                            <h3 class="profile-name">@samidev786</h3>
+                            <p class="profile-bio">Frontend Developer | Building cool stuff</p>
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <span class="stat-value">100+</span>
+                                <span class="stat-label">Repositories</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">500+</span>
+                                <span class="stat-label">Commits</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">50+</span>
+                                <span class="stat-label">Stars</span>
+                            </div>
+                        </div>
+                        <a target="_blank" href="github.com/samidev786" class="btn btn-github">
+                            <i class="bi bi-github me-2"></i>View Profile
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <!-- Repo 1 -->
+                        <div class="col-md-6">
+                            <div class="repo-card">
+                                <div class="repo-header">
+                                    <i class="bi bi-folder-fill"></i>
+                                    <h4 class="repo-name">Restaurant System</h4>
+                                </div>
+                                <p class="repo-desc">A modern restaurant management system with Firebase integration</p>
+                                <div class="repo-meta">
+                                    <span class="repo-language"><i class="bi bi-circle-fill js"></i> JavaScript</span>
+                                    <span class="repo-stars"><i class="bi bi-star"></i> 12</span>
+                                    <span class="repo-forks"><i class="bi bi-diagram-2"></i> 4</span>
+                                </div>
+                                <a href="#" class="repo-link">View Repository →</a>
+                            </div>
+                        </div>
+
+                        <!-- Repo 2 -->
+                        <div class="col-md-6">
+                            <div class="repo-card">
+                                <div class="repo-header">
+                                    <i class="bi bi-folder-fill"></i>
+                                    <h4 class="repo-name">Account creation & authentication</h4>
+                                </div>
+                                <p class="repo-desc">A small app that let user create account with authentication powered by firebase</p>
+                                <div class="repo-meta">
+                                    <span class="repo-language"><i class="bi bi-circle-fill html"></i> HTML</span>
+                                    <span class="repo-stars"><i class="bi bi-star"></i> 8</span>
+                                    <span class="repo-forks"><i class="bi bi-diagram-2"></i> 2</span>
+                                </div>
+                                <a href="https://github.com/samidev786/mini-firebase-app" class="repo-link">View Repository →</a>
+                            </div>
+                        </div>
+
+                        <!-- Repo 3 -->
+                        <div class="col-md-6">
+                            <div class="repo-card">
+                                <div class="repo-header">
+                                    <i class="bi bi-folder-fill"></i>
+                                    <h4 class="repo-name">weather-app</h4>
+                                </div>
+                                <p class="repo-desc">Weather application with API integration</p>
+                                <div class="repo-meta">
+                                    <span class="repo-language"><i class="bi bi-circle-fill js"></i> JavaScript</span>
+                                    <span class="repo-stars"><i class="bi bi-star"></i> 15</span>
+                                    <span class="repo-forks"><i class="bi bi-diagram-2"></i> 6</span>
+                                </div>
+                                <a target="_blank" href="https://github.com/samidev786/weather-app" class="repo-link">View Repository →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!-- ========== RESUME SECTION ========== -->
+    <section id="resume" class="resume-section section-padding" data-aos="zoom-in-down">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="resume-card">
+                        <div class="resume-icon">
+                            <i class="bi bi-file-earmark-person"></i>
+                        </div>
+                        <h2 class="resume-title">Get My Resume</h2>
+                        <p class="resume-text">Download my resume to learn more about my skills, experience, and qualifications.</p>
+
+                        <a href="./assets/cv.jpg" download="My_CV" class="btn btn-primary-custom btn-lg">
+                            <i class="bi bi-download me-2"></i>Download Resume (PDF)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Have a project in mind? Let's work together!</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info">
+                        <h3 class="contact-heading">Let's Talk</h3>
+                        <p class="contact-text">Feel free to reach out for collaborations, freelance work, or just a friendly chat about web development.</p>
+
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:samishaikh12313@gmail.com">samishaikh12313@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Location</span>
+                                    <span>Hyderabad, Pakistan</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-linkedin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/muhammad-sami-shaikh-889660367/">linkedin.com/in/muhammad-sami-shaikh-889660367/</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="availability-badge">
+                            <span class="status-dot"></span>
+                            Open to internships & junior developer roles
+                        </div>
+
+                       <div class="social-links fade-in-up delay-5 mb-4">
+                        <a target="_blank" href="https://github.com/samidev786" class="social-link"><i class="bi bi-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/muhammad-sami-shaikh-889660367/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61584690696419" class="social-link"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7"  data-aos="fade-left">
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" placeholder="John Smith">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Your Email</label>
+                                        <input type="email" class="form-control" placeholder="john@example.com">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Subject</label>
+                                        <input type="text" class="form-control" placeholder="Project Inquiry">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Message</label>
+                                        <textarea class="form-control" rows="5" placeholder="Tell me about your project..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary-custom btn-lg w-100">
+                                        <i class="bi bi-send me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer"  data-aos="zoom-in">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <a class="footer-logo" href="#home">
+                            <span class="brand-bracket">&lt;</span>Sami<span class="brand-slash">/</span><span class="brand-bracket">&gt;</span>
+                        </a>
+                        <p class="footer-desc">Frontend Developer passionate about creating beautiful, responsive, and user-friendly web experiences.</p>
+                         <div class="footer-social fade-in-up delay-5 mb-4">
+                        <a target="_blank" href="https://github.com/samidev786" class="social-link"><i class="bi bi-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/muhammad-sami-shaikh-889660367/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61584690696419" class="social-link"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4 class="footer-heading">More</h4>
+                    <ul class="footer-links">
+                        <li><a href="#journey">Journey</a></li>
+                        <li><a href="#github">GitHub</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-contact">
+                        <li><i class="bi bi-envelope"></i> samishaikh12313@gmail.com</li>
+                        <li><i class="bi bi-geo-alt"></i> Hyderabad, Pakistan</li>
+                        <li><i class="bi bi-clock"></i> Open to opportunities</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sami Shaikh. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+     AOS.init();
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#element", {
+  speed: 125,
+  loop: true,
+}).go();
+    </script>
+</body>
+</html>
