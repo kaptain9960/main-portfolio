@@ -1,7 +1,6 @@
 Personal Portfolio – Kaptain Divine
 
-<img width="1358" height="687" alt="image" src="https://github.com/user-attachments/assets/56cc01f2-f053-4df7-9a51-4afaa8f00d0a" />
-
+![alt text](assets/image.png)
 
 Welcome to my Personal Portfolio, an interactive showcase of my skills, projects, and accomplishments as a front-end web developer. This portfolio serves as a professional platform to present my experience in HTML, CSS, JavaScript, and React, as well as my ability to design responsive, user-friendly, and visually appealing websites. It reflects my passion for web development, attention to detail, and commitment to creating high-quality digital experiences.
 
@@ -41,34 +40,30 @@ Features
 
 Clean and Modern Design – A visually appealing layout with organized sections and smooth navigation.
 
-<img width="1358" height="687" alt="image" src="https://github.com/user-attachments/assets/6ccd4e21-c3f6-4d18-af01-7eb8facfc244" />
+![alt text](assets/image.png)
 
 
 Fully Responsive – Optimized for desktop, tablet, and mobile devices.
 
-<img width="505" height="644" alt="image" src="https://github.com/user-attachments/assets/ba28373a-4895-445a-af22-ea3a0126fa88" />
 
 
 Project Showcase – Displays a portfolio of my web development projects with live links and descriptions.
 
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/3d6901c3-cee0-4727-b932-400f041624bc" />
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/0d4995ad-0930-412a-996a-c22c614c74d9" />
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/878fd4ea-0b64-405b-b4c1-b199e422bfd1" />
+![alt text](assets/image-2.png)
 
 
 
 Downloadable CV / Resume – Visitors can download my CV directly from the portfolio.
 
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/726bc1ce-4cb6-4d4a-b699-422e447171c0" />
-
+![alt text](assets/image-3.png)
+![alt text](assets/image-5.png)
 
 Interactive Elements – Includes smooth scrolling, hover effects, buttons, and clickable sections.
 
 Contact Form – Allows potential employers, collaborators, or clients to get in touch directly.
 
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/8c61c183-13d6-4ccb-be42-041eb02fa02b" />
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/016affaf-c7a5-4eb0-bb15-1ad3fd355b9c" />
-<img width="1360" height="630" alt="image" src="https://github.com/user-attachments/assets/b10f63bc-c4fc-4340-a494-d2d79bec2cc2" />
+![alt text](assets/image-4.png)
+![alt text](assets/image-6.png)
 
 
 Accessible Design – Ensures readability, accessibility, and a pleasant user experience across devices.
